@@ -1,0 +1,41 @@
+body{
+    background-color:#C2B2B4
+}
+
+.cl{
+    background-color:#5B4447;
+    border-radius:0
+}
+.cl:hover{
+    background-color: #938284;
+    border-radius:0
+    
+}
+.border{
+    border:solid 1px #3e2a35;
+    padding: 0 0 0 0 ;
+
+
+}
+
+
+h5{
+    color:#3e2a35;
+    background-color:white;
+    margin: 0 0;
+    padding:10px;
+}
+.fa{
+    color: grey;
+    font-size: 50px;
+}
+.fa:hover{
+    cursor: pointer;
+}
+.active{
+    color: firebrick !important
+}
+.last{
+    background-color: #5b4447;
+    height: 50px
+}

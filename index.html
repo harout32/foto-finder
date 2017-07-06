@@ -1,0 +1,61 @@
+<!DOCTYPe html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid" style="background-color:#3E2A35">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+                <form action="">
+                    <div class="form-group">
+                        <label style="color:#C2B2B4" class="" for="">Title</label>
+                        <input id="title" class="form-control" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label style="color:#C2B2B4" class="" for="">Caption</label>
+                        <input id="caption" class="form-control" type="text">
+                    </div>
+                    <label style="color:#FFFFFF" class="btn cl btn-file pull-left">
+                       Choose File
+                        <input id="file" type="file" style="display:none;">
+                    </label>
+                    <label style="color:#FFFFFF" class="btn cl btn-submit pull-right">
+                       Add to Album
+                        <input onclick="doIt()" type="button" style="display:none;">
+                    </label>
+
+
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="">
+        <div id="photos" class="row">
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
